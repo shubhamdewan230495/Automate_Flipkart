@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="l(failed)">
+    <classes>
+      <class name="scripts.mainone">
+        <methods>
+          <include name="invalidlogin"/>
+          <include name="validLogin"/>
+          <include name="launc"/>
+          <include name="closeall"/>
+        </methods>
+      </class> <!-- scripts.mainone -->
+    </classes>
+  </test> <!-- l(failed) -->
+</suite> <!-- Failed suite [Suite] -->

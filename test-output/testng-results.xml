@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-22T23:38:30 IST" name="Suite" finished-at="2020-12-22T23:39:27 IST" duration-ms="57709">
+    <groups>
+    </groups>
+    <test started-at="2020-12-22T23:38:30 IST" name="l" finished-at="2020-12-22T23:39:27 IST" duration-ms="57709">
+      <class name="scripts.mainone">
+        <test-method is-config="true" signature="launc()[pri:0, instance:scripts.mainone@96def03]" started-at="2020-12-22T23:38:30 IST" name="launc" finished-at="2020-12-22T23:38:38 IST" duration-ms="8558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launc -->
+        <test-method signature="invalidlogin()[pri:0, instance:scripts.mainone@96def03]" started-at="2020-12-22T23:38:38 IST" name="invalidlogin" finished-at="2020-12-22T23:38:39 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:scripts.mainone@96def03]" started-at="2020-12-22T23:38:39 IST" name="closeall" finished-at="2020-12-22T23:38:59 IST" duration-ms="20693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+        <test-method is-config="true" signature="launc()[pri:0, instance:scripts.mainone@96def03]" started-at="2020-12-22T23:38:59 IST" name="launc" finished-at="2020-12-22T23:39:07 IST" duration-ms="7343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launc -->
+        <test-method signature="validLogin()[pri:0, instance:scripts.mainone@96def03]" started-at="2020-12-22T23:39:07 IST" name="validLogin" finished-at="2020-12-22T23:39:07 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:scripts.mainone@96def03]" started-at="2020-12-22T23:39:07 IST" name="closeall" finished-at="2020-12-22T23:39:27 IST" duration-ms="20697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+      </class> <!-- scripts.mainone -->
+    </test> <!-- l -->
+  </suite> <!-- Suite -->
+</testng-results>
